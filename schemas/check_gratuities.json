@@ -1,0 +1,7 @@
+[
+  { "name": "id", "type": "INTEGER", "mode": "NULLABLE" },
+  { "name": "object_id", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "check_id", "type": "INTEGER", "mode": "NULLABLE" },
+  { "name": "modified_on", "type": "TIMESTAMP", "mode": "NULLABLE" },
+  { "name": "ingestion_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE" }
+]

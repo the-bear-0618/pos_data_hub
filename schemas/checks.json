@@ -1,0 +1,7 @@
+[
+  {"name": "check_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "business_date", "type": "DATE", "mode": "NULLABLE"},
+  {"name": "check_number", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "total_amount", "type": "NUMERIC", "mode": "NULLABLE"},
+  {"name": "ingestion_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"}
+]

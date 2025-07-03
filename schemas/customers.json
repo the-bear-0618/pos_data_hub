@@ -1,0 +1,22 @@
+[
+  { "name": "id", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "object_id", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "user_session_object_id", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "party_info_id", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "login_name", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "account_number", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "first_name", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "last_name", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "birthday", "type": "TIMESTAMP", "mode": "NULLABLE" },
+  { "name": "email_address", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "address1", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "address2", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "city", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "state", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "zip", "type": "STRING", "mode": "NULLABLE" },
+  {"name": "phone", "type": "STRING", "mode": "NULLABLE"},
+  { "name": "site_object_id", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "modified_on", "type": "TIMESTAMP", "mode": "NULLABLE" },
+  { "name": "account_id", "type": "STRING", "mode": "NULLABLE" },
+  {"name": "ingestion_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"}
+]

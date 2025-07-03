@@ -1,0 +1,18 @@
+[
+  { "name": "id", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "object_id", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "site_object_id", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "account_object_id", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "component_id", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "name", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "price", "type": "NUMERIC", "mode": "NULLABLE" },
+  { "name": "tax", "type": "NUMERIC", "mode": "NULLABLE" },
+  { "name": "placement_location_tag", "type": "INTEGER", "mode": "NULLABLE" },
+  {"name": "item_sale_id", "type": "STRING", "mode": "NULLABLE"},
+  { "name": "modified_on", "type": "TIMESTAMP", "mode": "NULLABLE" },
+  { "name": "description", "type": "STRING", "mode": "NULLABLE" },
+  { "name": "external_code", "type": "INTEGER", "mode": "NULLABLE" },
+  { "name": "cover_count", "type": "NUMERIC", "mode": "NULLABLE" },
+  { "name": "is_default", "type": "BOOLEAN", "mode": "NULLABLE" },
+  {"name": "ingestion_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"}
+]

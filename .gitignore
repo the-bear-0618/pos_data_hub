@@ -1,0 +1,17 @@
+# Terraform files
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+**/*.tfplan
+**/*.zip
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / OS files
+.vscode/
+.DS_Store
