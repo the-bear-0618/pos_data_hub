@@ -18,13 +18,18 @@ resource "google_project_iam_custom_role" "terraform_deployer" {
     "cloudscheduler.jobs.create",
     "cloudscheduler.jobs.get",
     "cloudscheduler.jobs.update",
+    "iam.roles.get",
+    "iam.roles.update",
     "iam.serviceAccounts.get",
     "iam.serviceAccounts.create",
+    "iam.serviceAccountKeys.list",
     "run.services.setIamPolicy",
     "secretmanager.secrets.create",
     "secretmanager.secrets.get",
+    "secretmanager.secrets.setIamPolicy",
     "storage.buckets.create",
     "storage.buckets.get",
+    "storage.buckets.setIamPolicy",
     "storage.objects.create"
   ]
 }
