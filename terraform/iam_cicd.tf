@@ -11,6 +11,6 @@ resource "google_service_account" "github_actions_sa" {
 # Grant the GitHub Actions SA permissions to deploy the infrastructure
 resource "google_project_iam_member" "github_actions_editor" {
   project = var.gcp_project_id
-  role    = "roles/editor"
+  role    = google_project_iam_custom_role.terraform_deployer.name
   member  = google_service_account.github_actions_sa.member
 }

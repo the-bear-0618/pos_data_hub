@@ -54,7 +54,8 @@ def _get_secret(secret_id: str) -> str:
     name = f"projects/{GCP_PROJECT_ID}/secrets/{secret_id}/versions/latest"
     try:
         response = secret_manager_client.access_secret_version(request={"name": name})
-        return response.payload.data.decode("UTF-8")
+        # Decode using 'utf-8-sig' to handle potential BOMs and strip whitespace/newlines.
+        return response.payload.data.decode("utf-8-sig").strip()
     except Exception as e:
         logging.error(f"Failed to access secret: {secret_id}. Error: {e}")
         raise
